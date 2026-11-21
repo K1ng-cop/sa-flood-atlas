@@ -1,0 +1,9 @@
+storage_epsg: 4326
+
+study_areas:
+  ethekwini:
+    name: eThekwini Metropolitan Municipality
+    province: KwaZulu-Natal
+    osm_query: "eThekwini Metropolitan Municipality, KwaZulu-Natal, South Africa"
+    utm_epsg: 32736
+    event: {name: April 2022 KZN floods, start: 2022-04-08, end: 2022-04-13}

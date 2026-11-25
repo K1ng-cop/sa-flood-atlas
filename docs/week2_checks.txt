@@ -1,0 +1,23 @@
+  layer   |  rows   | invalid | total_km_or_m2 
+----------+---------+---------+----------------
+ road     |       0 |       0 |               
+ river    |      97 |       0 |            536
+ building | 1392962 |       0 |      134401512
+(3 rows)
+
+ buildings_outside 
+-------------------
+                 0
+(1 row)
+
+ f_table_schema |    f_table_name    | srid 
+----------------+--------------------+------
+ core           | building           | 4326
+ core           | river              | 4326
+ core           | road               | 4326
+ core           | study_area         | 4326
+ raw            | hydrorivers        | 4326
+ raw            | open_buildings     | 4326
+ raw            | sarva_flood_hazard | 4326
+(7 rows)
+
